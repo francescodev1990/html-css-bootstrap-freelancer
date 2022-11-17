@@ -13,20 +13,47 @@
     <!-- HEADER
      -->
      <header>
-        <div class="container">
-            <div class="row">
-                <div class="col-6">
-                    <div class="content">
-
-                    </div>
+        <nav class="navbar bg-text-bg-secondary p-3 fixed-top">
+            <div class="container-fluid">
+              <a class="navbar-brand text-white ms-5" href="#">START BOOTSTRAP</a>
+              <button class="navbar-toggler bg-light mx-5" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                  <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Bootstrap</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                 </div>
-                <div class="col-6">
-                    <div class="content">
-
-                    </div>  
+                <div class="offcanvas-body">
+                  <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Dropdown
+                      </a>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li>
+                          <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                  <form class="d-flex mt-3" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Ricerca" aria-label="Ricerca">
+                    <button class="btn btn-outline-success" type="submit">Conferma</button>
+                  </form>
                 </div>
+              </div>
             </div>
-        </div>
+          </nav>
      </header>
 
 
@@ -34,70 +61,135 @@
      -->
 
      <main>
-        <section id="jumbotron">
+        <section id="jumbotron" class="jumbo mt-5">
             <div class="container">
                 <div class="row">
                     <div class="col-12">
                         <div class="content">
-
+                            <div class="container d-flex align items center flex column">
+                                <img class="avatar mb-5" src="./img/avatar.svg" alt="">
+                                <h1 class="avatar-heading text-white mt-5">START BOOTSRAP</h1>
+                                <div class="flex">
+                                    <hr><i class='bx bxs-star'></i><hr>
+                                </div>
+                                
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        <section id="columns">
+        <section id="columns" class="mt-3">
+            <div class="container">
+                <div class="row my-3 mb-5">
+                    <div class="col-12">
+                        <div class="content-title text-center text-dark mt-3">
+                            <h3>PORTFOLIO</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="row my-3 g-2">
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="content">
+                            <img src="./img/cabin.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="content">
+                            <img src="./img/cake.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="content">
+                            <img src="./img/circus.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="row my-3 g-2">
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="content">
+                            <img src="./img/game.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="content">
+                            <img src="./img/safe.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="content">
+                            <img src="./img/submarine.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about">
+           <div class="container">
+            <div class="row my-2">
+                <div class="col-12">
+                    <div class="content"></div>
+                </div>
+            </div>
+            <div class="row my-2">
+                <div class="col-12 col-md-6">
+                    <div class="content"></div>   
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="content"></div>
+                </div>
+            </div>
+           </div>
+        </section>
+        <section id="contatti">
+            <div class="container">
+                <div class="row gy-3 mt-2 mb-2">
+                    <div class="col-12">
+                        <div class="content"></div>
+
+                    </div>
+                    <div class="col-12">
+                        <div class="content"></div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+     </main>
+     <footer>
+        <div class="container">
+            <div class="row mb-3 gx-2">
+                <div class="col-12 col-md-4">
+                    <div class="content">
+
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="content">
+
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="content">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bottom-bar">
             <div class="container">
                 <div class="row">
-                    <div class="col-12 col-md-6 col-lg-4">
-                        <div class="content">
+                    <div class="col-12"></div>
+                    <div class="content">
 
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-6 col-lg-4">
-                        <div class="content">
-
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-6 col-lg-4">
-                        <div class="content">
-
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-6 col-lg-4">
-                        <div class="content">
-
-                        </div>
                     </div>
                 </div>
             </div>
-        </section>
-
-
-
-
-
-
-
-
-
-
-
-        
-
-
-        
-     </main>
-
-
-
-
-
-
-
-
-
-
-     
-     <footer></footer>
+        </div>
+     </footer>
 </body>
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
 </html>
+
